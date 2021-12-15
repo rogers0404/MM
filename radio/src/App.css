@@ -77,14 +77,14 @@ h2 {
   width: 100%;
 }
 
-  .filters .span {
+  .filters span {
       margin: 0.25em;
       border: 1px solid #e36bae;
       border-radius: 10px;
       padding: 0.25em 0.75em;
     }
 
-    .filters .span:hover {
+    .filters span:hover {
       cursor: pointer;
       background: linear-gradient(to bottom right, #e36bae, #fb743e);
     }
@@ -101,20 +101,26 @@ h2 {
   width: 100%;
 }
 
+.stations_carousel {
+  width: 100%;
+}
+
 .station {
-  font-size: 1.2em;
-  border: 1px solid rgb(76, 62, 95);
+  font-size: 0.9em;
+  border: 1px solid aliceblue;
   margin: 0.25em;
   border-radius: 10px;
-  padding: 1em;
+  padding: 0.3em;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: aliceblue;
 }
 
 .station:hover {
     border-color: #e36bae;
+    color: aliceblue;
   }
 
 
@@ -130,6 +136,7 @@ h2 {
 .name {
   width: 100%;
   text-align: center;
+  color: aliceblue;
 }
 
 img {
@@ -139,6 +146,7 @@ img {
   border-radius: 50%;
   border: 2px solid rgb(76, 62, 95);
   margin: 0 0.25em;
+  background-color: aliceblue;
 }
 
 audio {
@@ -174,7 +182,7 @@ audio {
     grid-template-columns: repeat(2, 50%);
   }
 
-  img {
+  /* img {
     display: none;
-  }
+  } */
 }
